@@ -4,7 +4,7 @@
     padding: 0;
     margin: 15;
     box-sizing: border-box;
-    background-color:rgb(52, 255, 171);
+    background-color:rgb(255, 255, 255);
 }
 
 #grid_wrapper {
@@ -31,52 +31,51 @@ header {
     align-items: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     font-family: 'Luckiest Guy', cursive;
 }
 
 
 nav {
     grid-area: na;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
     display: flex;
     height: 40px;
     justify-content: space-evenly;
     align-items: center;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     font-family: 'Luckiest Guy', cursive;
 }
 
 
 article {
     grid-area: ar;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     justify-content: space-evenly;
     align-items: center;
     height: 290px;
     font-family: 'Luckiest Guy', cursive;
+    background: url("../img/animals/flamingo.png");
 }
 
 
 footer {
     grid-area: fo;
-    background-color:rgb(59, 199, 31);
+    background-color:rgb(118, 72, 72);
     height: 330px;
-    width: 625px;
+    width: 620px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Luckiest Guy', cursive;   
 }
-
-
 
 
 p {
@@ -84,21 +83,21 @@ p {
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
 h1 {
     font-size: 45px;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
 h2 {
     font-size: 25px;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
@@ -107,7 +106,7 @@ h3 {
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
@@ -116,16 +115,16 @@ h4 {
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
 h5 {
-    font-size: 2    0px;
+    font-size: 20px;
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgb(59, 199, 31);
+    background-color: rgb(118, 72, 72);
 }
 
 
@@ -153,3 +152,4 @@ h5 {
     background: url("../img/animals/flamingo.png");
     background-size: contain;
 }
+
