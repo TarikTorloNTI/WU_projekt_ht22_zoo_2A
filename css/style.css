@@ -4,7 +4,7 @@
     padding: 0;
     margin: 15;
     box-sizing: border-box;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(151, 113, 113);
 }
 
 #grid_wrapper {
@@ -17,8 +17,8 @@
     "ar"
     "fo"
     "di";
-    grid-template-columns:1250px;
-    grid-template-rows: 100px 50px 300px 100px;
+    grid-template-columns:1245px;
+    grid-template-rows: 100px 50px 500px 100px;
 }
 
 
@@ -31,7 +31,7 @@ header {
     align-items: center;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     font-family: 'Luckiest Guy', cursive;
 }
 
@@ -45,8 +45,15 @@ nav {
     align-items: center;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     font-family: 'Luckiest Guy', cursive;
+}
+
+
+a {
+    font-size: 25px;
+    color: transparent;
+    background-color: transparent;
 }
 
 
@@ -55,23 +62,38 @@ article {
     background-color: rgb(118, 72, 72);
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     align-items: center;
-    height: 290px;
+    height: 490px;
     font-family: 'Luckiest Guy', cursive;
+}
+
+#flamingo_img {
     background: url("../img/animals/flamingo.png");
 }
 
 
 footer {
     grid-area: fo;
-    background-color:rgb(118, 72, 72);
-    height: 330px;
-    width: 620px;
+    background-color:rgb(118, 72, 72);;
+    height: 530px;
+    width: 1245px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Luckiest Guy', cursive;   
+}
+
+section {
+    background-color:rgb(118, 72, 72);
+    height: 330px;
+    width: 250px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Luckiest Guy', cursive;   
@@ -106,12 +128,12 @@ h3 {
     justify-content: center;
     display: flex;
     color: white;
-    background-color: rgb(118, 72, 72);
+    background-color: transparent;
 }
 
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
     justify-content: center;
     display: flex;
     color: white;
@@ -120,27 +142,82 @@ h4 {
 
 
 h5 {
-    font-size: 20px;
+    font-size: 22px;
     justify-content: center;
-    display: flex;
+    display: flex;  
     color: white;
     background-color: rgb(118, 72, 72);
 }
 
 
+h6 {
+    font-size: 22px;
+    justify-content: center;
+    display: flex;  
+    color: white;
+    background-color: rgb(118, 72, 72);
+}
+
+section {
+    width: 1245px;
+    height: 490px;
+}
 
 #personal_section {
     display: flex;
-    justify-content: center;
 }
 
-.personal_article {
+.article {
     width: 150px;
     height: 210px;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
     margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+#article_person1 {
+    background: url("../img/persons/avatar-1b1afc16e9bc79edbb292d32abbc2a86.jpg");
+    background-size: contain;
+    height: 100px;
+}
+
+#article_person2 {
+    background: url("../img/persons/avatar-7e6c3ea471a1ac6911e35c6b3fa46870.jpg");
+    background-size: contain;
+}
+
+#article_person3 {
+    background: url("../img/persons/avatar-23fdc1d1c52f710520d659f56a264b40.jpg");
+    background-size: contain;
+}
+
+#article_person4 {
+    background: url("../img/persons/avatar-a4d4b8b36e435311d8e7e13a8e207118.jpg");
+    background-size: contain;
+}
+
+#article_person5 {
+    background: url("../img/persons/avatar-aea3441ddc1173c3b63794fe1ebcce0e.jpg;");   
+    background-size: contain;
+}
+
+
+#restaurang_section {
     display: flex;
+}
+
+.restaurang {
+    width: 150px;
+    height: 210px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -148,8 +225,13 @@ h5 {
 
 
 
-#leif_article {
-    background: url("../img/animals/flamingo.png");
-    background-size: contain;
+
+a:hover {
+    pointer-events: stroke;
 }
 
+
+button:hover {
+    background-color: black;
+    transition: 0.2;
+}
