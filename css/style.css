@@ -4,7 +4,7 @@
     padding: 0;
     margin: 15;
     box-sizing: border-box;
-    background-color:rgb(151, 113, 113);
+    background-color:rgb(67, 140, 70);
 }
 
 #grid_wrapper {
@@ -70,7 +70,7 @@ article {
 }
 
 #flamingo_img {
-    background: url("../img/animals/flamingo.png");
+    background: url("../img/animals/elephant.png");
 }
 
 
@@ -181,7 +181,7 @@ section {
 
 
 #article_person1 {
-    background: url("../img/persons/avatar-1b1afc16e9bc79edbb292d32abbc2a86.jpg");
+    background: url("../img/persons/avatar-a23eed54c62b7e55dea7606998af0c9a.jpg");
     background-size: contain;
     height: 100px;
 }
@@ -197,12 +197,22 @@ section {
 }
 
 #article_person4 {
-    background: url("../img/persons/avatar-a4d4b8b36e435311d8e7e13a8e207118.jpg");
+    background: url("../img/persons/avatar-d54eda9dcb9e319bb2b77b6e76cae8fc.jpg");
     background-size: contain;
 }
 
 #article_person5 {
-    background: url("../img/persons/avatar-aea3441ddc1173c3b63794fe1ebcce0e.jpg;");   
+    background: url("../img/persons/avatar-14442c2e192eabfebb9e45f07b23cdd8.jpg");   
+    background-size: contain;
+}
+
+#article_person6 {
+    background: url("../img/persons/avatar-14442c2e192eabfebb9e45f07b23cdd8.jpg");   
+    background-size: contain;
+}
+
+#article_person7 {
+    background: url("../img/persons/avatar-14442c2e192eabfebb9e45f07b23cdd8.jpg");   
     background-size: contain;
 }
 
